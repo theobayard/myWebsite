@@ -1,10 +1,25 @@
+/* This class is for global styling choices */
+
+/* Global style variables */
+:root {
+  /* Colors */
+  --main-bg-color: black;
+  --main-text-color: #41FF00;
+  --dim-main-text-color: rgba(var(--main-text-color), 0.8);
+  
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: 'VT323','Courier Prime',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+  font-family: "Lucida Console", Monaco, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bg-color);
+  height:100%;
 }
 
 code {
